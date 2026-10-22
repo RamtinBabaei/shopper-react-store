@@ -1,0 +1,2 @@
+import { Link } from "react-router-dom";
+export default function Account() { return <section className="container info-page"><h1>Your demo space.</h1><p>This frontend portfolio uses a local demo profile. There is no sign-in, password storage or server account.</p><p>Bag, favorites and demonstration orders stay in this browser. Use fictional checkout details.</p><p><Link className="button dark" to="/orders">Demo orders</Link> <Link className="button" to="/wishlist">Saved pieces</Link></p></section>; }
